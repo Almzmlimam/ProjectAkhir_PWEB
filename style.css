@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Mengatur jenis font untuk seluruh teks pada body */
+    background-color: #f8f8f8; /* Warna latar belakang */
+    margin: 0; /* Menghapus margin agar konten menempel pada tepi */
+    padding: 0; /* Menghapus padding agar konten menempel pada tepi */
+}
+
+h1 {
+    text-align: center; /* Posisi teks menjadi rata tengah */
+    color: #333; /* Warna teks */
+    margin-top: 20px; /* Ruang atas sebesar 20px */
+}
+
+.footer {
+    margin-top: 50px; /* Ruang atas sebesar 50px */
+    text-align: center; /* Posisi teks menjadi rata tengah */
+}
+
+p {
+    text-align: center; /* Posisi teks menjadi rata tengah */
+    color: #666; /* Warna teks */
+}
+
+button {
+    display: block; /* Membuat tombol menjadi blok sehingga menempati satu baris penuh */
+    margin: 20px auto; /* Margin atas dan bawah sebesar 20px, margin kiri dan kanan secara otomatis */
+    padding: 10px 20px; /* Padding tombol */
+    background-color: #4caf50; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks pada tombol */
+    border: none; /* Menghapus border */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    text-decoration: none; /* Menghapus dekorasi teks */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna latar belakang tombol saat dihover */
+}
+
+table {
+    width: 80%; /* Lebar tabel sebesar 80% dari lebar container */
+    margin: 20px auto; /* Margin atas dan bawah sebesar 20px, margin kiri dan kanan secara otomatis */
+    border-collapse: collapse; /* Menggabungkan border sel */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Efek bayangan pada tabel */
+    background-color: #fff; /* Warna latar belakang tabel */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Border pada sel tabel */
+    padding: 12px; /* Padding pada sel tabel */
+    text-align: center; /* Posisi teks menjadi rata tengah */
+}
+
+th {
+    background-color: #4caf50; /* Warna latar belakang header tabel */
+    color: #fff; /* Warna teks pada header tabel */
+}
+
+a {
+    font-family: 'Poppins', sans-serif; /* Mengatur jenis font untuk tautan */
+    text-decoration: none; /* Menghapus dekorasi teks pada tautan */
+    color: #4285f4; /* Warna teks tautan */
+}
+
+a:hover {
+    font-family: 'Poppins', sans-serif; /* Mengatur jenis font pada tautan saat dihover */
+    text-decoration: underline; /* Garis bawah pada tautan saat dihover */
+}

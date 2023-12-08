@@ -1,0 +1,65 @@
+/* CSS untuk mengatur tampilan halaman web */
+body {
+    font-family: 'Poppins', sans-serif; /* Mengatur jenis font untuk seluruh teks pada body */
+    background-color: #f8f8f8; /* Warna latar belakang */
+    margin: 0; /* Menghapus margin pada body */
+    padding: 20px; /* Padding pada body */
+}
+
+.footer {
+    margin-top: 50px; /* Ruang atas sebesar 50px pada bagian footer */
+    text-align: center; /* Posisi teks menjadi rata tengah */
+}
+
+h1 {
+    text-align: center; /* Posisi teks menjadi rata tengah */
+    color: #333; /* Warna teks */
+}
+
+form {
+    width: 50%; /* Lebar form sebesar 50% dari container */
+    margin: 20px auto; /* Margin atas dan bawah sebesar 20px, margin kiri dan kanan secara otomatis */
+    background-color: #fff; /* Warna latar belakang form */
+    padding: 20px; /* Padding pada form */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Efek bayangan pada form */
+}
+
+table {
+    width: 80%; /* Lebar tabel sebesar 80% dari container */
+    margin: 20px auto; /* Margin atas dan bawah sebesar 20px, margin kiri dan kanan secara otomatis */
+    border-collapse: collapse; /* Menggabungkan border sel */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Efek bayangan pada tabel */
+    background-color: #fff; /* Warna latar belakang tabel */
+}
+
+td {
+    border: 1px solid #ddd; /* Border pada sel tabel */
+    padding: 12px; /* Padding pada sel tabel */
+    text-align: center; /* Posisi teks menjadi rata tengah */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: calc(100% - 24px); /* Lebar input dikurangi 24px untuk padding */
+    padding: 10px; /* Padding pada input */
+    margin-bottom: 15px; /* Margin bawah sebesar 15px */
+    border: 1px solid #ccc; /* Border pada input */
+    border-radius: 5px; /* Sudut melengkung pada input */
+}
+
+input[type="submit"] {
+    font-family: 'Poppins', sans-serif; /* Mengatur jenis font untuk tombol submit */
+    padding: 10px 20px; /* Padding pada tombol submit */
+    background-color: #4caf50; /* Warna latar belakang tombol submit */
+    color: #fff; /* Warna teks pada tombol submit */
+    border: none; /* Menghapus border pada tombol submit */
+    border-radius: 5px; /* Sudut melengkung pada tombol submit */
+    text-decoration: none; /* Menghapus dekorasi teks */
+}
+
+input[type="submit"]:hover {
+    font-family: 'Poppins', sans-serif; /* Mengatur jenis font pada tombol submit saat dihover */
+    background-color: #45a049; /* Warna latar belakang tombol submit saat dihover */
+}
